@@ -57,6 +57,8 @@
             <h2 class="carrossel__titulo">Novos lançamentos</h2>
           <div class="swiper">
   <!-- Additional required wrapper -->
+             <div class="swiper-wrapper">
+                <div class="swiper-pagination"></div>
   <div class="swiper-wrapper">
     <!-- Slides -->
   <div class="swiper-slide"><img src="ApacheKafka.svg" alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
@@ -81,5 +83,16 @@
 const swiper = new Swiper('.swiper', {
 spaceBetween: 10,
 slidesPerView: 3,
+   </script>
+<script>
+      const swiper = new Swiper(‘.swiper’, {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+      el: ‘.swiper-pagination’,
+      type: ‘bullets’,
+      },
+      });
+</script> 
   </body>
 </html>
