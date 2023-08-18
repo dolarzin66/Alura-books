@@ -1,6 +1,7 @@
 @import "header.css";
 @import "banner.css";
 @import "carrossel.css";
+@import "topicos.css";
 
 :root {
 --cor-de-fundo: #EBECEE;
