@@ -62,14 +62,21 @@ display: none;
   font-size: 30px;
   }
 
-.container__titulo {
-font-weight: 400;
-display: block;
-}
-.container__titulo--negrito {
-font-weight: 700;
-
-}
+  .container__titulo {
+  font-weight: 400;
+  display: block;
+  }
+  .container__titulo--negrito {
+  font-weight: 700;
+  }
+  .opcoes {
+  display: flex;
+  }
+  .opcoes__item {
+  padding: 0 1em;
+  text-transform: uppercase;
+  
+  }
 }
 
 .container__titulo {
