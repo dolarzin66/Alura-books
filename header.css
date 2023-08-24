@@ -81,6 +81,13 @@ display: none;
   text-decoration: none;
   color: var(--preto);
   }
+  .container__imagem-transparente {
+  display: none;
+  }
+}
+
+.opcoes {
+display: none;
 }
 
 .container__titulo {
